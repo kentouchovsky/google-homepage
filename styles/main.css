@@ -1,0 +1,107 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+div {
+  margin: auto;
+}
+
+#logo {
+  display:block;
+  margin: auto;
+  position:relative;
+  height: 100px;
+  top: 50%;
+  margin-top: 11%;
+}
+
+#search_bar {
+  display:block;
+  margin: auto;
+  position:relative;
+  margin-top: 30px;
+  width: 600px;
+  height: 45px;
+  border:1px solid #EAEAEA;
+  box-shadow: 0 2px 5px 2px #E5E5E5;
+  background: #fff;
+}
+
+/*.search_buttons {
+  display:block;
+  margin-top: 10px;
+}*/
+
+#google_search, #feeling_lucky {
+  margin: 20px auto;
+  display: inline-block;
+  background-color: #F2F2F2;
+  border: 1px solid #F2F2F2;
+  border-radius: 2px;
+  color: #757575;
+  height:40px;
+  width: 150px;
+  text-align: center;
+  font-weight: 600;
+}
+
+
+.navbar ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+
+.navbar ul li {
+  float: right;
+  margin-right: 20px;
+}
+
+.navbar ul #sign_in {
+  background-color: #4683EC;
+}
+
+.navbar ul #sign_in a {
+  color: white;
+  line-height: normal;
+  font-weight: bolder;
+}
+
+.navbar ul li a {
+  display: block;
+  text-decoration: none;
+  line-height: 24px;
+  padding: 12px 12px;
+  font-size: 13px;
+  color: #222;
+}
+
+.navbar ul li a img {
+height: 25px;
+}
+
+.footer ul {
+  position: absolute;
+  bottom: 0;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color: #F2F2F2;
+  border-top: 1px solid #E4E4E4;
+  width: 99%;
+}
+
+.footer ul li {
+  float: left;
+}
+
+.footer ul li a {
+  display: block;
+  text-decoration: none;
+  line-height: 24px;
+  padding: 12px 12px;
+  font-size: 13px;
+  color: #666666;
+}
